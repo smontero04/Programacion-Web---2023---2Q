@@ -7,3 +7,11 @@ body{background-color: rgb(110, 92, 54);}
     padding: 10px;
     font-size: large;
 }
+#temas{
+}
+#mates{
+    display: inline;
+}
+#bombillas{
+    display: inline;
+}
