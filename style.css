@@ -1,4 +1,4 @@
-main{background-color: rgb(110, 92, 54);}
+main{background-color: rgb(205, 158, 158);}
 #titulo{
     top:0;
     position: sticky;
@@ -8,11 +8,11 @@ main{background-color: rgb(110, 92, 54);}
     font-size: large;
     text-align: center;
 } 
+#mateicos{
+    font-family: 'Bitter', cursive;
+}
 #logo{
     margin-right: 120px;
-}
-#mates{
-    display: inline;
 }
 #bombillas{
     display: inline;
@@ -20,18 +20,84 @@ main{background-color: rgb(110, 92, 54);}
 .row{
     padding: 30px;
 }
-#calabaza{
+#nuestrosmates{
     text-align: center;
     color: black;
     margin-bottom: 25px;
-}
-#acero{
-    text-align: center;
-    color: black;
-    margin-bottom: 25px;
+    font-family:'Bitter', cursive ;
 }
 #bombillas{
     text-align: center;
     color: black;
     margin-bottom: 25px;
+    font-family: 'Bitter', cursive;
+}
+#otrosprod{
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Bitter', cursive;
+}
+.card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.container4{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.row4{
+    display: flex;
+}
+.apoyo,
+.fotomate {
+    flex: 1; 
+}
+.apoyo{
+    text-align: center;
+}
+.instagram,
+.whatsapp,
+.facebook,
+.twitter{
+    width: 80px;
+    height: auto; 
+    cursor: pointer;
+    margin: 30px;
+}
+.card-text{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+#nuestrasredes{
+    font-family: 'Bitter', cursive;
+}
+.precios{
+    display: flex;
+}
+#car{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 80px;
+}
+#titulocarrito,
+#vaciar,
+#total{
+    margin-left: 120px;
+}
+.conteiner5{
+    background-color: rgb(156, 156, 156);
+    border-radius: 250px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#vaciar{
+    border-radius: 20px;
+    background-color: rgb(205, 158, 158);
+    padding: 5px;
+}
+#linea{
+    margin-left: 120px;
 }
