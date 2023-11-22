@@ -14,6 +14,13 @@ main{background-color: rgb(205, 158, 158);}
 #logo{
     margin-right: 120px;
 }
+.col{
+    cursor: pointer;
+    
+}
+.nav-link{
+    font-family: 'Bitter', cursive;
+}
 #bombillas{
     display: inline;
 }
@@ -40,7 +47,6 @@ main{background-color: rgb(205, 158, 158);}
 }
 .card:hover {
     transform: scale(1.05);
-    cursor: pointer;
 }
 .container4{
     display: flex;
@@ -66,7 +72,8 @@ main{background-color: rgb(205, 158, 158);}
     cursor: pointer;
     margin: 30px;
 }
-.card-text{
+.card-text,
+.precio{
     text-align: center;
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
@@ -77,27 +84,57 @@ main{background-color: rgb(205, 158, 158);}
 .precios{
     display: flex;
 }
-#car{
-    margin-top: 20px;
-    margin-left: 120px;
-    margin-right: 80px;
-}
-#titulocarrito,
-#vaciar,
-#total{
-    margin-left: 120px;
-}
-.conteiner5{
-    background-color: rgb(156, 156, 156);
-    border-radius: 250px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
+
 #vaciar{
     border-radius: 20px;
-    background-color: rgb(205, 158, 158);
+    background-color: rgb(209, 208, 208);
     padding: 5px;
 }
-#linea{
-    margin-left: 120px;
+.btn-comprar{
+    text-align: center;
+    background-color: black;
+    width: 90%;
+    color: white;
+    margin: 10px;
+}
+#carrito {
+    background-color: #adadac;
+    border-radius: 2vw;
+    padding: 2vw;
+    margin-top: 2vw;
+}
+
+#carrito h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+#carrito table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1vw;
+}
+
+#carrito th, #carrito td {
+    padding: 0.8vw;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#carrito .btn-vaciar, #carrito .btn-eliminar {
+    padding: 0.5vw 1vw;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+#carrito .btn-vaciar {
+    margin-right: 1vw;
 }
