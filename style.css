@@ -85,7 +85,6 @@ main{background-color: rgb(205, 158, 158);}
     display: flex;
 }
 
-
 #vaciar{
     border-radius: 20px;
     background-color: rgb(209, 208, 208);
@@ -137,4 +136,70 @@ main{background-color: rgb(205, 158, 158);}
 
 #carrito .btn-vaciar {
     margin-right: 1vw;
+}
+
+.crearcuenta {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tablacrcta {
+    background-color: #fff;
+    border-collapse: collapse;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+.titulocta {
+    text-align: center;
+    color: #333;
+}
+
+.th, .td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.th {
+    background-color: #4caf50;
+    color: white;
+}
+
+.iniciarsesion {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tablainssn {
+    background-color: #fff;
+    border-collapse: collapse;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+.tituloinssn {
+    text-align: center;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
 }
